@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest a new feature
+labels:
+  - enhancement
+body:
+  - type: textarea
+    attributes:
+      label: Problem/Use Cases
+      description: If this feature solves a problem what problem does it solve? Otherwise what are the use cases for this feature?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Feature
+      description: Please describe the feature you are suggesting
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives
+      description: Are there any alternative ways to do the same thing? Would they work? Why or why not?
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Please include any additional information relevent to your feature request
+

@@ -1,0 +1,39 @@
+name: Bug Report
+description: File a bug report
+labels:
+  - bug
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version were you using when the bug happened? Leave blank if unknown
+      placeholder: v1.0.0
+  - type: textarea
+    attributes:
+      label: Expected Behaviour
+      description: What were you expecting to happen?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behaviour
+      description: What actually heppened? Please include screenshots if applicable
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: What did you do that resulted in the bug?
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Please include any additional information that may help us fix the bug
+
